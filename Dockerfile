@@ -7,5 +7,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN chmod +x run.sh
-
 ENTRYPOINT ["./run.sh"]
